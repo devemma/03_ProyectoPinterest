@@ -9,8 +9,10 @@ body {
 }
 
 .header {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    align-items: center;
 }
 
 .logo {
@@ -68,4 +70,34 @@ body {
         flex: 100%;
         max-width: 100%;
     }
+}
+
+.search__input {
+    display: flex;
+    align-items: left;
+    border: 1px solid lightgray;
+    height: 20%;
+    padding: 10px 20px;
+    border-radius: 999px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 40px;
+    max-width: 560px;
+}
+
+#input-search {
+    background-color: #FFFFFF;
+    caret-color: black;
+    color: #202124;
+}
+
+.search__input input {
+    flex: 1;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+}
+
+.search__input .material-icons {
+    color: gray;
 }
