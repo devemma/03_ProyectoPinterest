@@ -8,14 +8,14 @@ body {
     font-family: Arial;
 }
 
-.header {
+.navbar-pinterest {
     display: flex;
     justify-content: space-between;
     padding: 20px 30px;
     align-items: center;
 }
 
-.logo {
+.pinterest-icon {
     fill: currentColor;
     stroke-width: 0;
     color: red;
@@ -29,7 +29,7 @@ body {
     text-align: left;
 }
 
-.row {
+.content {
     display: -ms-flexbox;
     /* IE10 */
     display: flex;
@@ -85,7 +85,7 @@ body {
     max-width: 560px;
 }
 
-#input-search {
+#finder {
     background-color: #FFFFFF;
     caret-color: black;
     color: #202124;
@@ -96,6 +96,20 @@ body {
     padding: 10px 20px;
     border: none;
     outline: none;
+}
+
+.material-icons {
+    color: black;
+    cursor: pointer;
+}
+
+a {
+    color: inherit;
+}
+
+img:hover {
+    cursor: pointer;
+    opacity: 0;
 }
 
 .search__input .material-icons {
